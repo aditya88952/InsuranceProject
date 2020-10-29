@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Whole Project Test Suites">
+
+	<suite-files>
+		<suite-file path="testngTravel_Insurance.xml"></suite-file>
+		<suite-file path="testngCar_Insurance.xml"></suite-file>
+		<suite-file path="testngHealth_Insurance.xml"></suite-file>
+
+
+	</suite-files>
+
+</suite> <!-- Suite -->

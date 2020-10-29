@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="1,268.23" tests="22" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Windows10\workspace\InsuranceProject\target\test-classes;C:\Users\Windows10\workspace\InsuranceProject\target\classes;C:\Users\Windows10\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\Windows10\.m2\repository\com\google\guava\guava\29.0-jre\guava-29.0-jre.jar;C:\Users\Windows10\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Windows10\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Windows10\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Windows10\.m2\repository\org\checkerframework\checker-qual\2.11.1\checker-qual-2.11.1.jar;C:\Users\Windows10\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\Windows10\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Windows10\.m2\repository\com\squareup\okhttp3\okhttp\3.0.0-RC1\okhttp-3.0.0-RC1.jar;C:\Users\Windows10\.m2\repository\com\squareup\okio\okio\1.6.0\okio-1.6.0.jar;C:\Users\Windows10\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Windows10\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Windows10\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Windows10\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Windows10\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Windows10\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Windows10\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Windows10\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Windows10\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Windows10\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Windows10\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Windows10\.m2\repository\org\seleniumhq\selenium\selenium-support\3.0.1\selenium-support-3.0.1.jar;C:\Users\Windows10\.m2\repository\com\google\api-client\google-api-client\1.22.0\google-api-client-1.22.0.jar;C:\Users\Windows10\.m2\repository\com\google\oauth-client\google-oauth-client\1.22.0\google-oauth-client-1.22.0.jar;C:\Users\Windows10\.m2\repository\com\google\http-client\google-http-client\1.22.0\google-http-client-1.22.0.jar;C:\Users\Windows10\.m2\repository\com\google\http-client\google-http-client-jackson2\1.22.0\google-http-client-jackson2-1.22.0.jar;C:\Users\Windows10\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.1.3\jackson-core-2.1.3.jar;C:\Users\Windows10\.m2\repository\com\google\guava\guava-jdk5\17.0\guava-jdk5-17.0.jar;C:\Users\Windows10\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\Windows10\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Windows10\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\Windows10\.m2\repository\com\aventstack\extentreports\3.1.5\extentreports-3.1.5.jar;C:\Users\Windows10\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Windows10\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\Windows10\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\Windows10\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\Windows10\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\Windows10\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\Windows10\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Windows10\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\Windows10\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\Windows10\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\Windows10\.m2\repository\org\apache\poi\poi-ooxml\4.1.1\poi-ooxml-4.1.1.jar;C:\Users\Windows10\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.1\poi-ooxml-schemas-4.1.1.jar;C:\Users\Windows10\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\Windows10\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\Windows10\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\Windows10\.m2\repository\org\apache\poi\poi\4.1.1\poi-4.1.1.jar;C:\Users\Windows10\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\Windows10\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Windows10\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Windows10\.m2\repository\org\apache\commons\commons-text\1.8\commons-text-1.8.jar;C:\Users\Windows10\.m2\repository\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.jar;C:\Users\Windows10\.m2\repository\commons-io\commons-io\1.3.2\commons-io-1.3.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Windows10\AppData\Local\Temp\surefire1039890353222769477\surefirebooter4805545185832670432.jar C:\Users\Windows10\AppData\Local\Temp\surefire1039890353222769477 2020-10-29T16-19-11_992-jvmRun1 surefire3557692268097208615tmp surefire_054031660771753411tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\Windows10\workspace\InsuranceProject\target\test-classes;C:\Users\Windows10\workspace\InsuranceProject\target\classes;C:\Users\Windows10\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\Windows10\.m2\repository\com\google\guava\guava\29.0-jre\guava-29.0-jre.jar;C:\Users\Windows10\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Windows10\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Windows10\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Windows10\.m2\repository\org\checkerframework\checker-qual\2.11.1\checker-qual-2.11.1.jar;C:\Users\Windows10\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\Windows10\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Windows10\.m2\repository\com\squareup\okhttp3\okhttp\3.0.0-RC1\okhttp-3.0.0-RC1.jar;C:\Users\Windows10\.m2\repository\com\squareup\okio\okio\1.6.0\okio-1.6.0.jar;C:\Users\Windows10\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Windows10\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Windows10\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Windows10\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Windows10\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Windows10\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Windows10\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Windows10\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Windows10\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Windows10\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Windows10\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Windows10\.m2\repository\org\seleniumhq\selenium\selenium-support\3.0.1\selenium-support-3.0.1.jar;C:\Users\Windows10\.m2\repository\com\google\api-client\google-api-client\1.22.0\google-api-client-1.22.0.jar;C:\Users\Windows10\.m2\repository\com\google\oauth-client\google-oauth-client\1.22.0\google-oauth-client-1.22.0.jar;C:\Users\Windows10\.m2\repository\com\google\http-client\google-http-client\1.22.0\google-http-client-1.22.0.jar;C:\Users\Windows10\.m2\repository\com\google\http-client\google-http-client-jackson2\1.22.0\google-http-client-jackson2-1.22.0.jar;C:\Users\Windows10\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.1.3\jackson-core-2.1.3.jar;C:\Users\Windows10\.m2\repository\com\google\guava\guava-jdk5\17.0\guava-jdk5-17.0.jar;C:\Users\Windows10\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\Windows10\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Windows10\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\Windows10\.m2\repository\com\aventstack\extentreports\3.1.5\extentreports-3.1.5.jar;C:\Users\Windows10\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Windows10\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\Windows10\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\Windows10\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\Windows10\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\Windows10\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\Windows10\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Windows10\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\Windows10\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\Windows10\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\Windows10\.m2\repository\org\apache\poi\poi-ooxml\4.1.1\poi-ooxml-4.1.1.jar;C:\Users\Windows10\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.1\poi-ooxml-schemas-4.1.1.jar;C:\Users\Windows10\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\Windows10\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\Windows10\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\Windows10\.m2\repository\org\apache\poi\poi\4.1.1\poi-4.1.1.jar;C:\Users\Windows10\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\Windows10\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Windows10\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Windows10\.m2\repository\org\apache\commons\commons-text\1.8\commons-text-1.8.jar;C:\Users\Windows10\.m2\repository\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.jar;C:\Users\Windows10\.m2\repository\commons-io\commons-io\1.3.2\commons-io-1.3.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Windows10"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_131\jre"/>
+    <property name="basedir" value="C:\Users\Windows10\workspace\InsuranceProject"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Windows10\AppData\Local\Temp\surefire1039890353222769477\surefirebooter4805545185832670432.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_131\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_131-b11"/>
+    <property name="user.name" value="Windows10"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Windows10\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\WINDOW~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_131"/>
+    <property name="user.dir" value="C:\Users\Windows10\workspace\InsuranceProject"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\apache-maven-3.6.3/bin;C:\Program Files\Java\jdk1.8.0_131/bin;C:\Program Files\Java\jdk1.8.0_131/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;c:\Xilinx\bin\nt;C:\Program Files (x86)\GTK2-Runtime\lib;C:\Aldec\Active-HDL-Student-Edition\bin;C:\Program Files (x86)\Aldec\Active-HDL Network Client 8.1\BIN;D:\Aldec\ACTIVE~1.1\BIN;C:\Program Files (x86)\Aldec\Active-HDL 8.1\BIN;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;E:\;C:\Program Files\apache-maven-3.6.3\bin;C:\Users\Windows10\Anaconda3;C:\Users\Windows10\Anaconda3\Library\mingw-w64\bin;C:\Users\Windows10\Anaconda3\Library\usr\bin;C:\Users\Windows10\Anaconda3\Library\bin;C:\Users\Windows10\Anaconda3\Scripts;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;c:\Xilinx\bin\nt;C:\Program Files (x86)\GTK2-Runtime\lib;C:\Aldec\Active-HDL-Student-Edition\bin;C:\Program Files (x86)\Aldec\Active-HDL Network Client 8.1\BIN;C:\HTK-3.4.1\htk\bin.win32;D:\Aldec\ACTIVE~1.1\BIN;C:\Program Files (x86)\Aldec\Active-HDL 8.1\BIN;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MATLAB\R2018a\runtime\win64;C:\Program Files\MATLAB\R2018a\bin;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Users\Windows10\AppData\Local\Microsoft\WindowsApps;C:\Users\Windows10\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Windows10\AppData\Roaming\npm;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.131-b11"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testThree" classname="com_hackethon_test.HealthInsuranceTest" time="83.513">
+    <system-out><![CDATA[Health Insurance Plans
+Family Health Insurance
+Senior Citizen Health Insurance
+Coronavirus Health Insurance
+Arogya Sanjeevani Policy
+Critical Illness Insurance
+Mediclaim Policy
+Best Health Insurance Plans
+Health Insurance Claim
+Health Insurance Calculator
+2020-10-29
+2020-11-08
+]]></system-out>
+    <system-err><![CDATA[Oct 29, 2020 4:19:20 PM org.openqa.selenium.remote.DesiredCapabilities firefox
+INFO: Using `new FirefoxOptions()` is preferred to `DesiredCapabilities.firefox()`
+Oct 29, 2020 4:19:23 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Oct 29, 2020 4:19:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Oct 29, 2020 4:19:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Oct 29, 2020 4:20:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testTwo[{Col4=794532147&apos;, Col3=adi@gmail.com, Col2=Aditya, Col1=DL}](1)" classname="com_hackethon_test.CarInsuranceTest" time="108.488">
+    <system-out><![CDATA[No error in mail  
+Universal Sompo
+Please enter a valid 10-digit mobile number.
+1,102
+Reliance
+1,283
+Bajaj Allianz
+1,380
+]]></system-out>
+  </testcase>
+  <testcase name="testTwo[{Col4=76&apos;, Col3=jail.com, Col2=Jay, Col1=JH}](2)" classname="com_hackethon_test.CarInsuranceTest" time="82.294">
+    <system-out><![CDATA[2020-10-29
+2020-11-08
+Please enter a valid e-mail ID.
+Please enter a valid 10-digit mobile number.
+]]></system-out>
+    <system-err><![CDATA[Oct 29, 2020 4:21:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="testTwo[{Col4=8745&apos;, Col3=assddf, Col2=Ram, Col1=MH}](3)" classname="com_hackethon_test.CarInsuranceTest" time="22.868">
+    <system-err><![CDATA[Oct 29, 2020 4:24:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="testTwo[{Col4=8784512457&apos;, Col3=argmail.com, Col2=Aradhana, Col1=GJ}](4)" classname="com_hackethon_test.CarInsuranceTest" time="84.473">
+    <system-out><![CDATA[2020-10-29
+2020-11-08
+Please enter a valid e-mail ID.
+No error in phone 
+Universal Sompo
+1,102
+Reliance
+1,283
+Bajaj Allianz
+1,380
+]]></system-out>
+    <system-err><![CDATA[Oct 29, 2020 4:24:19 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Oct 29, 2020 4:24:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testTwo[{Col4=474&apos;, Col3=qwe@gmail.com, Col2=Mayank, Col1=AP}](5)" classname="com_hackethon_test.CarInsuranceTest" time="95.037">
+    <system-out><![CDATA[2020-10-29
+2020-11-08
+No error in mail  
+Please enter a valid 10-digit mobile number.
+Universal Sompo
+1,102
+Reliance
+1,283
+Bajaj Allianz
+1,380
+]]></system-out>
+    <system-err><![CDATA[Oct 29, 2020 4:26:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="testTwo[{Col4=7689741257&apos;, Col3=dmail.com, Col2=Arvind, Col1=TN}](6)" classname="com_hackethon_test.CarInsuranceTest" time="76.676">
+    <system-out><![CDATA[2020-10-29
+2020-11-08
+Please enter a valid e-mail ID.
+No error in phone 
+Universal Sompo
+]]></system-out>
+    <system-err><![CDATA[Oct 29, 2020 4:28:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="testTwo[{Col4=457896874&apos;, Col3=wwe@gmail.com, Col2=Sita, Col1=RJ}](7)" classname="com_hackethon_test.CarInsuranceTest" time="99.792">
+    <system-out><![CDATA[2020-10-29
+2020-11-08
+No error in mail  
+Please enter a valid 10-digit mobile number.
+]]></system-out>
+    <system-err><![CDATA[Oct 29, 2020 4:30:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="testTwo[{Col4=8986&apos;, Col3=ravi@gmail.com, Col2=Ravi, Col1=BR}](8)" classname="com_hackethon_test.CarInsuranceTest" time="83.75">
+    <system-out><![CDATA[2020-10-29
+2020-11-08
+No error in mail  
+Please enter a valid 10-digit mobile number.
+Religare
+1,827
+Reliance
+1,283
+]]></system-out>
+    <system-err><![CDATA[Oct 29, 2020 4:32:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="testTwo[{Col4=8972145&apos;, Col3=iragmail.com, Col2=Kamal, Col1=AN}](9)" classname="com_hackethon_test.CarInsuranceTest" time="62.33">
+    <system-out><![CDATA[Please enter a valid e-mail ID.
+Please enter a valid 10-digit mobile number.
+2020-10-29
+2020-11-08
+]]></system-out>
+    <system-err><![CDATA[Oct 29, 2020 4:34:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="testTwo[{Col4=741289630&apos;, Col3=ara@gmail.com, Col2=Keval, Col1=AP}](10)" classname="com_hackethon_test.CarInsuranceTest" time="56.369">
+    <system-out><![CDATA[No error in mail  
+Please enter a valid 10-digit mobile number.
+2020-10-29
+2020-11-08
+]]></system-out>
+    <system-err><![CDATA[Oct 29, 2020 4:36:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="testOne[{Col6=9874563210&apos;, Col5=Aditya Sinha, Col4=Mr., Col3=21.0, Col2=22.0, Col1=Germany, Col8=Low to High, Col7=aditya@gmail.com}](1)" classname="com_hackethon_test.InsuranceTest" time="14.41">
+    <system-err><![CDATA[Oct 29, 2020 4:21:11 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Oct 29, 2020 4:21:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testOne[{Col6=7412589630&apos;, Col5=Sunit Sinha, Col4=Mr., Col3=24.0, Col2=23.0, Col1=Russia, Col8=Low to High, Col7=sunit@gmail.com}](2)" classname="com_hackethon_test.InsuranceTest" time="68.416">
+    <system-out><![CDATA[Universal Sompo
+1,102
+Reliance
+1,283
+Bajaj Allianz
+1,380
+Please enter a valid e-mail ID.
+Please enter a valid 10-digit mobile number.
+]]></system-out>
+    <system-err><![CDATA[Oct 29, 2020 4:22:48 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Oct 29, 2020 4:22:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testOne[{Col6=9632587410&apos;, Col5=Ayan Ray, Col4=Mr., Col3=22.0, Col2=26.0, Col1=France, Col8=Low to High, Col7=ayan@gmail.com}](3)" classname="com_hackethon_test.InsuranceTest" time="11.363">
+    <system-err><![CDATA[Oct 29, 2020 4:25:44 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Oct 29, 2020 4:25:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testOne[{Col6=7891234560&apos;, Col5=Arvind Singh, Col4=Mr., Col3=20.0, Col2=25.0, Col1=Italy, Col8=Low to High, Col7=arvind@gmail.com}](4)" classname="com_hackethon_test.InsuranceTest" time="30.244">
+    <system-err><![CDATA[Oct 29, 2020 4:27:30 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Oct 29, 2020 4:27:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testOne[{Col6=8523697413&apos;, Col5=Shivani Sinha, Col4=Ms., Col3=24.0, Col2=22.0, Col1=Spain, Col8=Low to High, Col7=shivani@gmail.com}](5)" classname="com_hackethon_test.InsuranceTest" time="35.069">
+    <system-out><![CDATA[1,102
+Reliance
+1,283
+Bajaj Allianz
+1,380
+]]></system-out>
+    <system-err><![CDATA[Oct 29, 2020 4:29:17 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Oct 29, 2020 4:29:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testOne[{Col6=9513572580&apos;, Col5=Shagun Verma, Col4=Ms., Col3=25.0, Col2=23.0, Col1=Poland, Col8=Default, Col7=shagun@gmail.com}](6)" classname="com_hackethon_test.InsuranceTest" time="27.381">
+    <system-out><![CDATA[Religare
+1,827
+Reliance
+1,283
+Bajaj Allianz
+1,380
+]]></system-out>
+    <system-err><![CDATA[Oct 29, 2020 4:31:32 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Oct 29, 2020 4:31:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testOne[{Col6=7894523610&apos;, Col5=Ankita Mishra, Col4=Ms., Col3=23.0, Col2=21.0, Col1=Ukraine, Col8=Default, Col7=ankita@gmail.com}](7)" classname="com_hackethon_test.InsuranceTest" time="45.591">
+    <system-out><![CDATA[Bajaj Allianz
+1,380
+]]></system-out>
+    <system-err><![CDATA[Oct 29, 2020 4:33:23 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Oct 29, 2020 4:33:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testOne[{Col6=7458963254&apos;, Col5=Rohan, Col4=Mr., Col3=20.0, Col2=25.0, Col1=Romania, Col8=High to Low, Col7=rohan@gmail.com}](8)" classname="com_hackethon_test.InsuranceTest" time="66.17">
+    <system-out><![CDATA[Tata AIG
+2,342
+Royal Sundaram
+2,302
+Religare
+1,827
+]]></system-out>
+    <system-err><![CDATA[Oct 29, 2020 4:35:11 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Oct 29, 2020 4:35:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testOne[{Col6=9856478523&apos;, Col5=Deva, Col4=Mr., Col3=23.0, Col2=24.0, Col1=Denmark, Col8=High to Low, Col7=deva@gmail.com}](9)" classname="com_hackethon_test.InsuranceTest" time="109.701">
+    <system-out><![CDATA[Tata AIG
+2,342
+Royal Sundaram
+2,302
+HDFC
+1,956
+]]></system-out>
+  </testcase>
+  <testcase name="testOne[{Col6=7854693217&apos;, Col5=Sudarshan, Col4=Mr., Col3=24.0, Col2=22.0, Col1=Finland, Col8=High to Low, Col7=sudharshan@gmail.com}](10)" classname="com_hackethon_test.InsuranceTest" time="69.295">
+    <system-out><![CDATA[2020-10-29
+2020-11-08
+Tata AIG
+2,342
+Royal Sundaram
+2,302
+HDFC
+1,956
+]]></system-out>
+    <system-err><![CDATA[Oct 29, 2020 4:38:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="testOne[{Col6=8569742365&apos;, Col5=Arnab Mistry, Col4=Mr., Col3=26.0, Col2=23.0, Col1=Norway, Col8=Default, Col7=arnab@gmail.com}](11)" classname="com_hackethon_test.InsuranceTest" time="65.231">
+    <system-out><![CDATA[2020-10-29
+2020-11-08
+Religare
+1,827
+Reliance
+1,283
+Bajaj Allianz
+1,380
+]]></system-out>
+    <system-err><![CDATA[Oct 29, 2020 4:39:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+</testsuite>

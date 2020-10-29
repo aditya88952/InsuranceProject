@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Grid Suite]" parallel="classes">
+  <test thread-count="5" name="Test Basics 1(failed)" parallel="classes">
+    <classes>
+      <class name="com_hackethon_test.InsuranceTest">
+        <methods>
+          <include name="endReport"/>
+          <include name="testOne" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com_hackethon_test.InsuranceTest -->
+    </classes>
+  </test> <!-- Test Basics 1(failed) -->
+</suite> <!-- Failed suite [Grid Suite] -->

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Grid Suite" parallel="classes" thread-count="5">
+  <test name="Test Basics 1">
+      <classes>
+       <class name="com_hackethon_test.InsuranceTest"/>
+       <class name="com_hackethon_test.HealthInsuranceTest"/>
+       <class name="com_hackethon_test.CarInsuranceTest"/>
+      </classes>
+      
+      
+  </test> <!-- Test --> 
+   
+  
+</suite> <!-- Suite -->

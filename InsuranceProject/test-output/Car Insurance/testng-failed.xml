@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Car Insurance]">
+  <test thread-count="5" name="Test no. 2(failed)">
+    <classes>
+      <class name="com_hackethon_test.CarInsuranceTest">
+        <methods>
+          <include name="testTwo" invocation-numbers="0"/>
+          <include name="endReport"/>
+        </methods>
+      </class> <!-- com_hackethon_test.CarInsuranceTest -->
+    </classes>
+  </test> <!-- Test no. 2(failed) -->
+</suite> <!-- Failed suite [Car Insurance] -->
